@@ -6,64 +6,8 @@
 
         <title>First_Web_Demo_Page</title> 
         <!--===Embedded Style===-->
-        <style>
-            header
-            {
-                background: url(images/central_park.jpg) 0 -200px no-repeat;
-                background-size: 1500px;
-                height: 400px;   /*gie header some height to display the background*/
-                padding-top: 100px;
-                padding-left: 100px;
-                font-weight: bold;
-                font-family: Arial, Helvetica, sans-serif;
-                
-            }
-            li{
-                list-style-type: none;
-                display: inline;
-                padding: 0 20px;
-                font-weight: bold;
-            }
-            li a {
-                text-decoration: none;    /* Remove Underline*/
-            }
-            li a:link{
-                color: #000; /* Before Click */
-
-            }
-            li a:visited{
-                color: #818db3; /* After Click */
-            }
-            li a:hover{
-                color: #333; /*Mouse Over*/
-            }
-            li a:active{
-                color: #753a30; /* Mouse Down */
-            }
-
-            nav{
-                background-color: rgb(255, 245, 238);
-                height: 50px;
-                text-align: center;
-                padding-top: 2px;
-            }
-            main {
-                height: 400px;
-            }
-            main h1{
-                color: rgb(129, 141, 179);
-                font-family: arial;
-            }
-            footer{
-                height: 40px;
-                background-color: rgb(129, 141, 179);
-                text-align: center;
-                padding-top: 20px;
-                color: rgb(211, 218, 240);
-                font-weight: bold;
-            }
-
-        </style>
+        <link rel="stylesheet" href="style.css">
+       
     </head>
     <body>
         <!--- Container to Wrap Everything -->
@@ -73,10 +17,10 @@
             <header style="font-size: 60px; color: #fff;">The_Mamidi</header>
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="page2.html">ABOUT</a></li>
                     <li>GALLERY</li>
-                    <li>CONTACT</li>
+                    <li><a href="page3.html">CONTACT</a></li>
                     
                 </ul>
             </nav> <!--End of Main Navigation-->
